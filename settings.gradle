@@ -1,1 +1,2 @@
 rootProject.name = 'spring-in-actions'
+include 'spring-demo'

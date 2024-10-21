@@ -33,8 +33,8 @@ ProductService, и внедряет InventoryService в ProductService чере�
       class="com.example.InventoryService"/>
 <bean id="productService"
       class="com.example.ProductService"/>
-<constructor-arg ref="inventoryService"/>
-        </bean>
+      <constructor-arg ref="inventoryService"/>
+</bean>
 
 ```
 
